@@ -22,5 +22,8 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
+    - -Wextra
+    - -Wall
     dependencies:
     - ptxplain
+    - optparse-applicative
